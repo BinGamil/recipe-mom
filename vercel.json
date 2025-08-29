@@ -1,0 +1,10 @@
+{
+  "name": "recipe-mom",
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
