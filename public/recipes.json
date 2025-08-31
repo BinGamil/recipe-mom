@@ -38,6 +38,7 @@
       "Serve plain, or add ham, lettuce, or cheese and roll up."
     ]
   },
+  
   {
     "id": "avocado-sandwich",
     "title": "Avocado Sandwich",
@@ -57,6 +58,7 @@
       "Cover with the other slice of bread."
     ]
   },
+  
   {
     "id": "peanut-butter-sandwich",
     "title": "Peanut Butter Sandwich",
@@ -73,6 +75,7 @@
       "Cover with the other slice of bread."
     ]
   },
+  
   {
     "id": "milk-oatmeal",
     "title": "Milk with Oatmeal",
@@ -89,6 +92,7 @@
       "Serve hot."
     ]
   },
+
   {
     "id": "cheese-toast",
     "title": "Cheese Toast",
@@ -104,6 +108,7 @@
       "Serve hot."
     ]
   },
+
   {
     "id": "bacon-fried-egg",
     "title": "Bacon & Fried Egg",
@@ -119,6 +124,7 @@
       "Serve with toast or rice."
     ]
   },
+
   {
     "id": "scrambled-eggs",
     "title": "Scrambled Eggs",
@@ -141,6 +147,7 @@
       "Serve plain or with toast."
     ]
   },
+
   {
     "id": "ham-chicken-sandwich",
     "title": "Ham/Chicken Breast & Cheese Sandwich",
@@ -161,6 +168,7 @@
       "Cover with second slice, cut in half, and serve."
     ]
   },
+
   {
     "id": "tuna-sandwich",
     "title": "Tuna Sandwich",
@@ -182,6 +190,7 @@
       "Cover with second slice, cut in half, serve."
     ]
   },
+
   {
     "id": "moms-oven-baked-ribs",
     "title": "Mom's Oven-Baked Ribs",
@@ -213,6 +222,7 @@
       "Open foil, brush with honey, broil 3-5 minutes until caramelized."
     ]
   },
+
   {
     "id": "crispy-potato-wedges",
     "title": "Crispy Potato Wedges",
@@ -237,6 +247,7 @@
       "Optional: broil 3-5 minutes for extra crispiness."
     ]
   },
+
   {
     "id": "sour-cream-dipping-sauce",
     "title": "Sour Cream Dipping Sauce",
@@ -253,6 +264,7 @@
       "Chill in fridge before serving."
     ]
   },
+
   {
     "id": "pork-shrimp-dumplings",
     "title": "Pork & Shrimp Chive Dumplings",
@@ -281,6 +293,7 @@
       "Serve with dipping sauce."
     ]
   },
+
   {
     "id": "vegetarian-dumplings",
     "title": "Vegetarian Dumplings (Chive, Egg, Tofu)",
@@ -301,6 +314,7 @@
       "Wrap in dumpling wrappers and cook same as pork dumplings."
     ]
   },
+
   {
     "id": "japanese-curry",
     "title": "Japanese Curry",
@@ -332,6 +346,7 @@
       "Serve with rice."
     ]
   },
+
   {
     "id": "minced-pork-rice-bowl",
     "title": "\"All Is Well\" Minced Pork Rice Bowl",
@@ -364,6 +379,7 @@
       "Serve over hot rice."
     ]
   },
+
   {
     "id": "fried-rice",
     "title": "Egg Fried Rice",
@@ -382,6 +398,7 @@
       "Season with soy sauce + pepper, return eggs."
     ]
   },
+
   {
     "id": "easy-banana-bread",
     "title": "Easy Banana Bread",
@@ -408,6 +425,7 @@
       "Tips: Add chopped walnuts or chocolate chips for extra flavor. For muffins, bake 20-25 minutes instead. If no cake flour, substitute by replacing 20g all-purpose flour with 20g cornstarch."
     ]
   },
+
   {
     "id": "french-press-coffee",
     "title": "Hot French Press Coffee",
@@ -425,6 +443,7 @@
       "Optional: add milk, soy milk, or coconut milk."
     ]
   },
+
   {
     "id": "cold-brew-coffee",
     "title": "Cold Brew Coffee",
@@ -442,8 +461,8 @@
       "Press down or filter, pour over ice.",
       "Optional: add milk, soy milk, or coconut milk."
     ]
-  }
-  ,
+  },
+
   {
     "id": "microwave-white-rice",
     "title": "Microwave White Rice (Sistema Cooker)",
@@ -459,6 +478,7 @@
       "Fluff and serve. Yields ~3 cups cooked rice."
     ]
   },
+
   {
     "id": "microwave-brown-rice",
     "title": "Microwave Brown Rice (Sistema Cooker)",
@@ -473,5 +493,165 @@
       "Let rest 10 minutes with lid on.",
       "Fluff and serve. Yields ~3 cups cooked rice."
     ]
+  },
+
+  {
+    "id": "dorm-fried-rice-egg",
+    "title": "Dorm Fried Rice with Egg",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "1 bowl leftover rice (about 200g)",
+      "2 eggs",
+      "50g frozen mixed vegetables (corn, carrot, peas)",
+      "1 tablespoon soy sauce (15ml)",
+      "1 tablespoon cooking oil (15ml)",
+      "Pinch ground black pepper (1/8 tsp)",
+      "Chopped green onions (optional)",
+      "Optional: 50g chicken breast cubes, 1-2 slices bacon, or 1-2 tbsp cooked bacon bits"
+    ],
+    "instructions": [
+      "Beat eggs in a bowl. Heat 2/3 tbsp oil in pan, scramble eggs into small pieces, set aside.",
+      "(If using chicken/bacon) cook until done, set aside.",
+      "Add rest of oil, stir-fry rice 2 min until loosened.",
+      "Add frozen vegetables, cover, steam 1-2 min until cooked and rice is hot.",
+      "Uncover, add soy sauce and pepper, stir-fry 1-2 min.",
+      "Return eggs (and meat/bacon) to pan, mix, fry 30 sec.",
+      "Sprinkle green onions before serving (optional)."
+    ]
+  },
+
+  {
+    "id": "dorm-clear-soup-noodles",
+    "title": "Dorm Clear Soup Noodles",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "80-100g dried noodles",
+      "50-70g cooked chicken, beef, or sandwich ham",
+      "1 egg (fried, boiled, or soy sauce egg)",
+      "50g leafy greens (lettuce, bok choy, spinach)",
+      "1 tablespoon soy sauce (15ml)",
+      "1/2 teaspoon salt (2-3g)",
+      "Pinch white pepper",
+      "Few drops sesame oil",
+      "Chili pepper or chopped cilantro (optional)",
+      "200ml hot chicken broth or boiled water",
+      "800ml water (for boiling noodles)"
+    ],
+    "instructions": [
+      "Boil kettle of hot water (for soup).",
+      "In pot, bring 800ml water to boil. Add noodles, stir to prevent sticking, cook 2-3 min until noodles float.",
+      "(Optional) Crack egg into pot for poached egg, or cook separately.",
+      "Place soy sauce and salt in serving bowl.",
+      "Blanch vegetables in noodle water 30-60 sec, add to bowl.",
+      "Place cooked chicken/ham and egg on top.",
+      "Pour in hot water or broth, mix gently.",
+      "Finish with white pepper, chili/cilantro, and sesame oil."
+    ]
+  },
+
+  {
+    "id": "dorm-tomato-egg-stirfry",
+    "title": "Dorm Stir-Fried Tomato and Egg",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "4 eggs",
+      "2 medium tomatoes (about 300g), cut into chunks",
+      "3 tablespoons cooking oil (2 for eggs, 1 for tomatoes)",
+      "1/2 teaspoon salt (2-3g, for tomatoes)",
+      "1/2 teaspoon sugar (optional)",
+      "1 teaspoon cornstarch + 2 teaspoons water",
+      "Few drops sesame oil",
+      "Black pepper and green onion (optional)"
+    ],
+    "instructions": [
+      "Beat eggs in bowl. Heat 2 tbsp oil in pan, pour in eggs, stir-fry quickly on high heat until just set but still soft. Remove and set aside.",
+      "Add 1 tbsp oil to pan, stir-fry tomatoes until they release juice.",
+      "Add salt and sugar (optional), stir well.",
+      "Pour cornstarch slurry around pan edge, cook 30 sec until sauce thickens.",
+      "Return eggs to pan, stir-fry 30 sec.",
+      "Drizzle sesame oil before serving. Sprinkle pepper or green onion if desired."
+    ]
+  },
+
+  {
+    "id": "dorm-baked-chicken-breast",
+    "title": "Dorm Baked Chicken Breast (Meal Prep or Dinner)",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "4 chicken breasts (about 200g each)",
+      "1 tablespoon olive oil (15ml)",
+      "1 teaspoon salt",
+      "1/2 teaspoon ground black pepper",
+      "1/2 teaspoon garlic powder",
+      "1 teaspoon paprika",
+      "1/2 teaspoon Italian dried herbs"
+    ],
+    "instructions": [
+      "Let chicken rest at room temp 15 min.",
+      "Preheat oven to 220°C (425°F).",
+      "Mix olive oil and seasonings.",
+      "Brush seasoning oil on both sides of chicken.",
+      "Bake 18-20 min, flipping halfway, until internal temp reaches 74°C (165°F).",
+      "Let rest before slicing.",
+      "Slice, portion into meal boxes, drizzle with pan juices."
+    ],
+    "notes": [
+      "Refrigerate half: keeps 3-4 days (use for noodles, fried rice, salad, sandwiches).",
+      "Freeze half: keeps 2-3 weeks (thaw before use or cook directly in stir-fry)."
+    ]
+  },
+
+  {
+    "id": "dorm-lemon-chicken",
+    "title": "Dorm Skillet-Roasted Lemon Chicken",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "1 whole chicken (1.2-1.5kg)",
+      "1/3 cup olive oil (80ml)",
+      "2 teaspoons Italian dried herbs",
+      "1 teaspoon fennel seeds",
+      "1 tablespoon salt",
+      "1 teaspoon ground black pepper",
+      "1 lemon, thinly sliced",
+      "1 onion, thinly sliced",
+      "2 cloves garlic, sliced",
+      "1/2 cup dry white wine (optional, or use pan juices)",
+      "1 tablespoon lemon juice"
+    ],
+    "instructions": [
+      "Preheat oven to 230°C (450°F).",
+      "Rinse and pat dry chicken. Cut open back and flatten.",
+      "Mix olive oil, herbs, fennel seeds, salt, pepper.",
+      "In oven-safe skillet, lay lemon, onion, garlic.",
+      "Place chicken skin-side down, brush with half oil mix; flip, brush rest.",
+      "Roast 30 min (check smaller chicken at 20 min).",
+      "Pour wine around pan (not on skin), roast 10-15 min until thickest breast reaches 68-71°C (155-160°F).",
+      "If no wine, spoon pan juices over skin instead.",
+      "After baking, squeeze lemon juice, cover with foil, rest 10 min.",
+      "Carve and serve with bread or baguette to dip juices."
+    ]
+  },
+  
+  {
+    "id": "dorm-meatballs-tomato-sauce",
+    "title": "Dorm Meatballs with Tomato Sauce",
+    "category": "Dorm Dinner",
+    "ingredients": [
+      "8-10 frozen meatballs",
+      "1 cup ready-made tomato sauce (250ml)",
+      "1 clove garlic, minced (optional)",
+      "1 teaspoon olive oil or cooking oil",
+      "Salt and black pepper to taste",
+      "Dried herbs (basil, oregano, Italian seasoning) (optional)",
+      "2 servings cooked rice or pasta",
+      "Grated cheese for topping (optional)"
+    ],
+    "instructions": [
+      "Cook meatballs: If raw frozen, pan-fry with 1 tsp oil until browned.",
+      "Make sauce: Heat 1 tsp oil in pan, sauté garlic (optional). Add tomato sauce, meatballs, season, heat 5-10 min until boil, then simmer 3-5 min.",
+      "Serve: Spoon meatballs and sauce over rice, or mix with pasta. Top with cheese if desired."
+    ]
   }
 ]
+  
+
