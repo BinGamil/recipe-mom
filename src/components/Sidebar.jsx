@@ -1,9 +1,16 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Sidebar({ recipes, onSelect }) {
   const categories = [...new Set(recipes.map((r) => r.category))];
-  const [expandedCategories, setExpandedCategories] = useState(new Set([categories[0]]));
+  const [expandedCategories, setExpandedCategories] = useState(new Set());
   const [search, setSearch] = useState("");
+
+  // Initialize expanded categories when recipes load
+  React.useEffect(() => {
+    if (categories.length > 0) {
+      setExpandedCategories(new Set([categories[0]]));
+    }
+  }, [categories.length]);
 
   // 搜索逻辑
   const filteredRecipes = recipes.filter((r) =>

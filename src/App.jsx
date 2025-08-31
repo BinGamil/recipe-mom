@@ -7,6 +7,7 @@ export default function App() {
   const [recipes, setRecipes] = useState([]);
   const [selected, setSelected] = useState(null);
   const [hasAccess, setHasAccess] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Check existing access
@@ -19,8 +20,16 @@ export default function App() {
     fetch("/recipes.json")
       .then((res) => res.json())
       .then((data) => {
+        console.log("Loaded recipes:", data.length); // Debug log
         setRecipes(data);
-        setSelected(data[0]); // 默认选中第一个
+        if (data.length > 0) {
+          setSelected(data[0]); // 默认选中第一个
+        }
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error("Failed to load recipes:", error);
+        setIsLoading(false);
       });
   }, []);
 
@@ -36,6 +45,18 @@ export default function App() {
   // Show access control if not authenticated
   if (!hasAccess) {
     return <AccessControl onAccessGranted={grantAccess} />;
+  }
+
+  // Show loading state
+  if (isLoading) {
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <div className="text-center">
+          <div className="text-4xl mb-4">🍳</div>
+          <p className="text-gray-600">Loading recipes...</p>
+        </div>
+      </div>
+    );
   }
 
   return (

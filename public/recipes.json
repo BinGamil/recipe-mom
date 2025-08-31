@@ -17,6 +17,7 @@
       "Can be stored in the refrigerator for up to 5 days."
     ]
   },
+  
   {
     "id": "egg-pancake",
     "title": "Egg Pancake",
@@ -405,6 +406,72 @@
       "Bake for 45-55 minutes, until golden brown and a toothpick inserted comes out clean.",
       "Cool before slicing and serving.",
       "Tips: Add chopped walnuts or chocolate chips for extra flavor. For muffins, bake 20-25 minutes instead. If no cake flour, substitute by replacing 20g all-purpose flour with 20g cornstarch."
+    ]
+  },
+  {
+    "id": "french-press-coffee",
+    "title": "Hot French Press Coffee",
+    "category": "Beverages",
+    "ingredients": [
+      "2 tablespoons coarse ground coffee (≈14g)",
+      "7/8 cup hot water (≈210ml, just boiled, wait 30 sec)",
+      "Optional: milk, soy milk, or coconut milk"
+    ],
+    "instructions": [
+      "Put coffee in French press.",
+      "Add 7/8 cup hot water.",
+      "Put the lid on (do not press yet), wait 4 minutes.",
+      "Slowly press down, pour.",
+      "Optional: add milk, soy milk, or coconut milk."
+    ]
+  },
+  {
+    "id": "cold-brew-coffee",
+    "title": "Cold Brew Coffee",
+    "category": "Beverages",
+    "ingredients": [
+      "3 tablespoons very coarse ground coffee (≈20g)",
+      "1 cup cold water (≈240ml)",
+      "Ice for serving",
+      "Optional: milk, soy milk, or coconut milk"
+    ],
+    "instructions": [
+      "Put coffee in jar or French press.",
+      "Add 1 cup cold water, stir.",
+      "Put the lid on (do not press yet), refrigerate 12 hours.",
+      "Press down or filter, pour over ice.",
+      "Optional: add milk, soy milk, or coconut milk."
+    ]
+  }
+  ,
+  {
+    "id": "microwave-white-rice",
+    "title": "Microwave White Rice (Sistema Cooker)",
+    "category": "Rice & Bowls",
+    "ingredients": [
+      "1 cup white rice (≈200g)",
+      "1 1/3 cups water (≈320ml)"
+    ],
+    "instructions": [
+      "Add rice and water to microwave rice cooker.",
+      "Microwave on HIGH for 11–12 minutes.",
+      "Let rest 5 minutes with lid on.",
+      "Fluff and serve. Yields ~3 cups cooked rice."
+    ]
+  },
+  {
+    "id": "microwave-brown-rice",
+    "title": "Microwave Brown Rice (Sistema Cooker)",
+    "category": "Rice & Bowls",
+    "ingredients": [
+      "1 cup brown rice (≈200g)",
+      "2 cups water (≈480ml)"
+    ],
+    "instructions": [
+      "Add rice and water to microwave rice cooker.",
+      "Microwave on HIGH for 25–28 minutes.",
+      "Let rest 10 minutes with lid on.",
+      "Fluff and serve. Yields ~3 cups cooked rice."
     ]
   }
 ]
